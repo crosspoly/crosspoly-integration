@@ -1,0 +1,59 @@
+module.exports = {
+    ARB_CONFIG: {
+        //TOKEN
+        WETH: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+        CHI: "0x0000000000000000000000000000000000000000",
+        Crosspoly: "0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581",
+
+        //Helper
+        CrosspolySellHelper: "0x18AA6Bb215CDBd179E7beAE10F66C21B26971306",
+        CrosspolyCalleeHelper: "0xaaffAd1017D6a13E026A00121BF258C616B25f7C",
+        CrosspolyV1PmmHelper: "0x4EE6398898F7FC3e648b3f6bA458310ac29cD352",
+        CrosspolyV2RouteHelper: "0xd72b354BD39f8F11D0cA07bD5724896Bb1a42707",
+
+        //Template
+        CloneFactory: "0x1ddD02f6d31C1eF04cFA0a1AA811406B5B2884E7",
+        FeeRateModel: "0xD56281EF996B6B29874C77D2e1464216E8043127",
+        PermissionManager: "0x61b21603A527b487C4a3A80a69224b87751D0F6a",
+        DVM: "0x790B4A80Fb1094589A3c0eFC8740aA9b0C1733fB",
+        DPP: "0x1565666CD77bB6DDE193e1D37Ad7b07900e6f4c0",
+        DSP: "0x778DF5B12170e8af8dF94356BfC864E57CE185DC",
+
+        DPPAdmin: "0x1dc8D1f1600B7C1D39e6b60FBC7b021Bc4F9C993",
+        CP: "0x8F8Dd7DB1bDA5eD3da8C9daf3bfa471c12d58486",
+        ERC20MineV3: "",
+        ERC20: "0xBb245F54569841906eC7eDFFf72a910557B81378",
+        MintableERC20: "0x70eFB31271C0796833f80dA4E6538d05B2AFA72C",
+        CustomERC20: "0xcE2a934933465E187c95AcAce60BC650a06aD373",
+
+        //Factory
+        DVMFactory: "0xb0C7cB15b52b0093130487209e96CFeC0Ba4Ff66",
+        DPPFactory: "0xF0B4338E3e3dfE9B6934FD68697ba8cF1055A1aD",
+        DSPFactory: "0xa1254eE5c6d6616904A82c55C6e134557096B6D4",
+        UpCpFactory: "0x69f52AC40185A2A005D49114F0B77b7bA856F0a0",
+        CrowdPoolingFactory: "0x884E3EE9e25896c57E7d8d6FAACef22B02BCD6bE",
+        ERC20Factory: "0x141b4497a298340E8B451ac4eeE947B00aDbe07A",
+        ERC20V2Factory: "0xE3c91fDCe30DD5Aa95138D6c4d63f43a26e9066e",
+        CrosspolyMineV3Registry: "",
+
+        //Approve
+        CrosspolyApprove: "0xCDFD45f965De9932367833Ca7187e4c9C43A2380",
+        CrosspolyApproveProxy: "0x0fe261aeE0d1C4DFdDee4102E82Dd425999065F4",
+
+        //Adapter
+        CrosspolyV1Adapter: "0xd5a7E197bacE1F3B26E2760321d6ce06Ad07281a",
+        CrosspolyV2Adapter: "0x8aB2D334cE64B50BE9Ab04184f7ccBa2A6bb6391",
+        UniAdapter: "0x17eBC315760Bb47384224A5f3BF829222fbD3Aa7",
+
+        //Proxy
+        CrosspolyV2Proxy: "0xeCEaDe494FD5F913Fd937C5CAc4577236395Dc32",
+        DSPProxy: "0x3a343F2e4e142412c5dD130359edb765a6054965",
+        CpProxy: "0x2cD18557E14aF72DAA8090BcAA95b231ffC9ea26",
+        RouteProxy: "0x3E64F18168651d140AaE57e0cF325874d066bA9E",
+        CrosspolyMineV3Proxy: "",
+
+        //Account
+        multiSigAddress: "0x1e0D4043C0CD3ed15F3c2AfE60B0F213c9b5E30d",
+        defaultMaintainer: "0x1e0D4043C0CD3ed15F3c2AfE60B0F213c9b5E30d",
+    }
+}
